@@ -7,16 +7,19 @@ sites:
     check: "tcp-ping"
     url: dnspro.ir
     port: 80
+    id: website
     ipv6: false
   - name: Recursive DNS 1
     check: "tcp-ping"
     url: ns1.dnspro.ir
     port: 53
+    id: dnspro1
     ipv6: false
   - name: Recursive DNS 2
     check: "tcp-ping"
     url: ns2.dnspro.ir
     port: 53
+    id: dnspro2
     ipv6: false
 
 status-website:
